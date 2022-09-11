@@ -190,6 +190,12 @@ dependencies {
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 
+    //QR
+
+    implementation("com.journeyapps:zxing-android-embedded:3.4.0")
+
+    //end QR
+
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
       exclude group:'com.facebook.fbjni'
     }
